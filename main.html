@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home Page</title>
+    <!-- Favicon (Website Icon) -->
+    <link
+      rel="icon"
+      href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <!-- External CSS Stylesheet -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <div class="cart-modal hidden">
+      <div class="cart-container">
+        <!-- Cart items will be displayed here -->
+      </div>
+      <div class="total-container">
+        <!-- Total price will be displayed here -->
+      </div>
+      <button class="close-cart-modal">Close</button>
+    </div>
+    
+  
+    <header>
+      <section>
+        <div id="container">
+          <div id="shopName">
+            <a href="main.html"><b>Manar</b>SHOP</a>
+          </div>
+
+          <div id="collection">
+            <div id="About"><a href="main.html">About</a></div>
+            <div id="contactUs">
+              <a href="contactUs.html">Contact Us</a>
+            </div>
+          </div>
+
+          <div id="search">
+            <i class="fas fa-search search"></i>
+            <input
+              type="text"
+              id="input"
+              name="searchBox"
+              placeholder="Search for Clothing and Accessories"
+            />
+          </div>
+
+          <div id="user">
+            <div id="cart-icon">
+              <i class="fas fa-shopping-cart"></i>
+              <div id="item-count">0</div>
+            </div>
+            
+            <!-- <a href="cart.html"><i class="fas fa-shopping-cart addedToCart"><div id="badge">0</div></i></a> -->
+            <a href="contactUs.html"><i class="fas fa-user-circle userIcon"></i></a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="slider-container">
+      <div class="slider">
+        <img
+          src="https://cosmeticsjunkiee.files.wordpress.com/2018/01/cropped-makeup-header.jpg"
+          alt="MakeUP"
+        />
+        <img
+          src="https://yamron.com/wp-content/uploads/2021/12/2022-watch-trends-header-1024x326.jpg"
+          alt="Watches"
+        />
+        <img
+          src="https://www.shutterstock.com/image-vector/ad-banner-design-kids-clothes-260nw-2191568211.jpg"
+          alt="cloth"
+        />
+        <img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2bbcfa99737217.5ef9be3dbb9a9.jpg"
+          alt="Shoes"
+        />
+      </div>
+    </div>
+
+    <!-- //------------------------------ -->
+
+ 
+    <select id="categoryDropdown">
+      <option value="All">All</option>
+      <option value="Watches">Watches</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Shoes">Shoes</option>
+      <option value="Makeup">Makeup</option>
+    </select>
+
+    <section class="product-section">
+ 
+    </section>
+
+
+
+
+
+
+    <footer>
+      <section>
+        <div id="containerFooter">
+          <div id="webFooter">
+            <h3>online store</h3>
+            <p>MakeUP</p>
+            <p>Watches</p>
+            <p>clothing</p>
+            <p>Shoes</p>
+          </div>
+          <div id="webFooter">
+            <h3>helpful link</h3>
+            <p>home</p>
+            <p>about</p>
+            <p>contact us</p>
+          </div>
+
+          <div id="webFooter">
+            <h3>address</h3>
+            <p>First Floor</p>
+            <p>Mall Of Masr</p>
+            <p>6th Of October</p>
+            <p>Egypt</p>
+          </div>
+          <div id="webFooter">
+            <h3>contact</h3>
+            <p>Phone : +2010222111</p>
+            <p>Email : maemira50001@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-button">Scroll Up</button>
+    <script src="main.js"></script>
+  </body>
+</html>
